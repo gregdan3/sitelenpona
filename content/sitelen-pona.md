@@ -1,5 +1,6 @@
 ---
 title: About Sitelen Pona
+toktitle: sitelen pona li seme
 permalink: sitelen-pona.html
 ---
 {% splith %}

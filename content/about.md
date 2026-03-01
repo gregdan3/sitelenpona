@@ -1,5 +1,6 @@
 ---
 title: About Us
+toktitle: kulupu ni li seme
 permalink: index.html
 ---
 

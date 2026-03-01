@@ -17,7 +17,7 @@ body {
     background-color: white;
     color: black;
     font-family: 'Nunito Sans', sans-serif;
-    counter-reset: sp en;
+    counter-reset: sp en sl;
 }
 
 .split p[lang="en"]:not(:is(h1, h2, h3, h4) > *)::before {  counter-increment: en; 
@@ -25,6 +25,9 @@ body {
 }
 .split p.sp:not(:is(h1, h2, h3, h4) > *)::before {  counter-increment: sp; 
   content: "[" counter(sp) "]";
+}
+.split p.sl:not(:is(h1, h2, h3, h4) > *)::before {  counter-increment: sp; 
+  content: "[" counter(sl) "]";
 }
 .split p::before{
     font-family: 'Nunito Sans', sans-serif;
@@ -101,6 +104,12 @@ h2.split>p {
         width: var(--sp-split);
         min-width: var(--sp-split);
 }
+.split .sl{
+        grid-column: 4;
+        width: var(--sp-split);
+        min-width: var(--sp-split);
+}
+
 
 
 
@@ -125,23 +134,33 @@ body.en-only .split:not(h1, footer) *, body.sp-only .split:not(h1, footer) *{
     margin-bottom: 0;
 }
 
-
 body.en-only .split .sp{
-    display: none
+    display: none;
 }
 body.en-only .split:not(h1, footer) [lang="en"]{
-    --en-split: 30rem
+    --en-split: 30rem;
 }
 
 body.sp-only .split:not(h1, footer) [lang="en"]{
-    display: none
+    display: none;
 }
 
-    :is(a.sp, .sp a){
+body.script-sp :is(.split, .splith, .condensed) .sl {
+    display: none;
+
+}
+body.script-sl :is(.split, .splith, .condensed) .sp {
+    display: none;
+
+}
+
+
+
+:is(a.sp, .sp a){
         text-underline-offset: 0.3em;
         text-decoration-thickness: 0.01em; 
        
-    }
+}
 
 
 
@@ -175,6 +194,10 @@ body.sp-only .split:not(h1, footer) [lang="en"]{
 
     .split .sp{
         width: 25rem;
+        max-width: 100%;
+    }
+    .split .sl{
+        width: unset;
         max-width: 100%;
     }
 

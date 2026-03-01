@@ -1,5 +1,6 @@
 ---
 title: Our Members
+toktitle: mi seme li lon kulupu
 permalink: members.html
 ---
 
@@ -75,11 +76,11 @@ permalink: members.html
         max-width: 100%;
         justify-content:center;
     }
-    :has(.tiny-toggle #sp-tog:checked) .show-sp, 
+    :has(.tiny-toggle #sp-tog:checked) .show-tok, 
     :has(.tiny-toggle #en-tog:checked) .show-en{
         display: block;
     }
-    :has(.tiny-toggle #en-tog:checked) .show-sp, 
+    :has(.tiny-toggle #en-tog:checked) .show-tok, 
     :has(.tiny-toggle #sp-tog:checked) .show-en{
         display: none;
     }
@@ -135,14 +136,20 @@ permalink: members.html
     <li>
         <details name="current">
         <summary>
-        <span lang="en"> {{ item. }}</span> <span class="emoji">{{ item.emoji }}</span><span lang="tok" class="sp">{{item.spname}}</span></summary>
-        {% for ijo in item.pali %}<p lang="tok" class="sp show-sp">{{ ijo }}</p>{% endfor %}
-        {% for ijo in item.titleennames %}<p class="show-en">{{ ijo }}</p>{% endfor %}
+        <span lang="en"> {{ item.enname }}</span> <span class="emoji">{{ item.emoji }}</span><span lang="tok" class="sp">{{item.spname}}</span>
+        {% if item.enname != item.slname %}<span lang="tok" class="sl"><br>{{item.slname}}</span>{% endif %}
+        </summary>
+        <div class="show-tok">
+            {% for ijo in item.pali %}<p lang="tok" class="sp">{{ ijo }}</p>{% endfor %}
+            {% for ijo in item.palisl %}<p lang="tok" class="sl">{{ ijo }}</p>{% endfor %}
+        </div>
 
+        {% for ijo in item.titles %}<p class="show-en">{{ ijo }}</p>{% endfor %}
         </details>
     </li>
 {% endfor %}
 </ul>
+
 
 
 

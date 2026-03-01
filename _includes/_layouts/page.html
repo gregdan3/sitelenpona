@@ -14,7 +14,7 @@
     <title>{{ title }} | SPPTA </title>
 </head>
 
-<body>
+<body class="script-sp sp-and-en">
     <header id="top-bar">
 
         <style>
@@ -199,16 +199,35 @@
 
                 var index = selection.selectedIndex;
                 if (index == 0) {
-                    document.querySelector("body").className = "en-and-sp"
+                    document.querySelector("body").classList.add("en-and-sp");
+                    document.querySelector("body").classList.remove("en-only");
+                    document.querySelector("body").classList.remove("sp-only");
                 }
                 if (index == 1) {
-                    document.querySelector("body").className = "en-only"
+                    document.querySelector("body").classList.remove("en-and-sp");
+                    document.querySelector("body").classList.add("en-only");
+                    document.querySelector("body").classList.remove("sp-only");
                 }
                 if (index == 2) {
-                    document.querySelector("body").className = "sp-only"
+                    document.querySelector("body").classList.remove("en-and-sp");
+                    document.querySelector("body").classList.remove("en-only");
+                    document.querySelector("body").classList.add("sp-only");
                 }
 
             }
+            function scriptChange(selection) {
+
+                var index = selection.selectedIndex;
+                if (index == 0) {
+                    document.querySelector("body").classList.add("script-sp");
+                    document.querySelector("body").classList.remove("script-sl");
+                }
+                if (index == 1) {
+                    document.querySelector("body").classList.remove("script-sp");
+                    document.querySelector("body").classList.add("script-sl");
+                }
+            }
+
         </script>
         <div>
             <a href="/index.html" style="z-index: 99">
@@ -227,12 +246,17 @@
     <a href="/index.html">about us</a>
     <a href="/sitelen-pona.html">about sitelen pona</a>
     <a href="/members.html">our members</a>
-    <a href="contact.html">contact</a></nav>
+    <a href="/contact.html">contact</a></nav>
     <select for="language-select" onchange="langChange(this);">
         <option value="bilingual" lang="en" selected>Bilingual</option>
         <option value="english" lang="en">English only</option>
-        <option value="sitelen-pona" lang="sp">sitelen pona taso</option>
+        <option value="sitelen-pona" lang="tok">toki pona taso</option>
     </select>
+    <select lang="tok" for="script-select" onchange="scriptChange(this);">
+        <option value="sitelen-pona" lang="tok" selected>sitelen pona</option>
+        <option value="toki-pona" lang="tok">sitelen Lasina</option>
+    </select>
+
     </details>
 </div>
 
@@ -245,7 +269,7 @@
     <select for="language-select" onchange="langChange(this);">
         <option value="bilingual" lang="en" selected>Bilingual</option>
         <option value="english" lang="en">English only</option>
-        <option value="sitelen-pona" lang="sp">sitelen pona taso</option>
+        <option value="sitelen-pona" lang="tok">toki pona taso</option>
     </select>
 </div>
 

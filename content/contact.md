@@ -1,5 +1,6 @@
 ---
 title: Contact Us
+toktitle: o toki tawa kulupu ni
 permalink: contact.html
 ---
 

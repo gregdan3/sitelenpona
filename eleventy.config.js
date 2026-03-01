@@ -48,7 +48,8 @@ export default async function (eleventyConfig) {
 
     eleventyConfig.addPairedShortcode("en", (insa) => insa.startsWith('\n') ? `::: attr {lang=en}\n${insa}\n:::` : `<span lang="en">${insa}</span>`);
     eleventyConfig.addPairedShortcode("sp", (insa) => insa.startsWith('\n') ? `::: attr {.sp lang=tok}\n${insa}\n:::` : `<span class="sp" lang="tok">${insa}</span>`);
-    eleventyConfig.addPairedShortcode("sl", function() { return ""; });
+    eleventyConfig.addPairedShortcode("sl", (insa) => insa.startsWith('\n') ? `::: attr {.sl lang=tok}\n${insa}\n:::` : `<span class="sl" lang="tok">${insa}</span>`);
+
 
     eleventyConfig.addPairedShortcode("split", (insa) => `<span class="split">\n${insa}\n</span>`);
     eleventyConfig.addPairedShortcode("splith", (insa, suli = 2) => `<h${suli} class="split">${insa}</h${suli}>`);
