@@ -110,9 +110,9 @@ SP Content
         <td>kala Asi</td>
         <td>Linku: The Linku project annually conducts a far-reaching word usage survey. The first survey occured in 2020. Analysts of Linku have been assigning words to usage categories since 2023.</td>
         <td>
-        Tier 1: 'core'<br>
-        Tier 2: 'common' <br>
-        Tier 3: 'uncommon' <br>
+Tier 1: [80%; 100%] <br>
+Tier 2: [60%; 80%] <br>
+Tier 3: [30%; 60%]
         </td>
     </tr>
 </tbody>
