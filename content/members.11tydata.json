@@ -596,27 +596,32 @@
 
     },
         {
-        "listed": "false",
+        "listed": "true",
 
-        "enname": "",
-        "spname": "jan Alonola",
-        "slname": "",
-        "emoji": "",
+        "enname": "jan Alonola",
+        "spname": "jan [a: lon: o:la]",
+        "slname": "jan Alonola",
+        "emoji": " 🇩🇪 🇵🇱",
         "ownwords": [
-            "",
+            "involvement: editor, writer, illustrator of lipu tenpo; YouTube Channel Aronora",
             ""
         ],
         "spbio": [
 
         ],
         "palisl": [
-            ""
-        ],
+            "ona li sona pali e sitelen pi pona lukin",
+            "ona li pali wawa lon pali kulupu: <br> [*lipu tenpo*](https://liputenpo.org)",
+            "ona li pali e musi: <br> [ilo Jutu]((https://www.youtube.com/@Aronora))"],
         "pali": [
-
+            "li sona pali e sitelen pi pona lukin",
+            "li pali wawa lon pali kulupu ni <br> [lipu tenpo](https://liputenpo.org)",
+            "li pali e musi ni <br> [ilo [jo uta tu:]]((https://www.youtube.com/@Aronora))"
         ],
         "titles": [
-
+            "Layout and <br> Graphic Designer",
+            "Organizer and Contributor: <br>[*lipu tenpo*](https://liputenpo.org)",
+            "Content Creator: <br> [YouTube](https://www.youtube.com/@Aronora)"
         ]
 
     },
@@ -760,18 +765,25 @@
 
         ],
         "palisl": [
-            "ona li mama e lipu sona: <br> [lipu Wasona](https://wasona.com/)", 
-            "ona li awen e ijo lon poki: <br> [nasin sitelen li lon lipu Linku](https://linku.la/fonts)"
+            "ona li mama e pali kulupu: <br> [lipu Linku](https://linku.la/)",
+            "ona li awen e sitelen pona lon poki: <br> [sitelen pona pi lipu Linku](https://github.com/lipu-linku/ijo/tree/refs/heads/main/nasinsitelen)",
+            "ona li mama e lipu sona: <br> [lipu Wasona](https://wasona.com/)" 
+
+
         ],
         "pali": [
-            "li mama e lipu sona ni <br> [lipu [waso.sona.:]](https://wasona.com/)", 
-            "li awen e ijo lon poki ni <br> [nasin sitelen li lon lipu Linku](https://linku.la/fonts)"
+            "li mama e pali kulupu ni <br> [lipu Linku](https://linku.la/)",
+            "li awen e sitelen pona lon poki ni <br> [sitelen pona pi lipu Linku](https://github.com/lipu-linku/ijo/tree/refs/heads/main/nasinsitelen)",
+            "li mama e lipu sona ni <br> [lipu [waso.sona.:]](https://wasona.com/)"
 
 
         ],
         "titles": [
-            "Educator: <br> [lipu Wasona](https://wasona.com/)", 
-            "Archivist: <br> [Font Collection on lipu Linku](https://linku.la/fonts)"
+            "Organizer: <br> [lipu Linku](https://linku.la/fonts)",
+            "Archivist: <br> [Linku Font Collection](https://github.com/lipu-linku/ijo/tree/refs/heads/main/nasinsitelen)",
+            "Educator: <br> [lipu Wasona](https://wasona.com/)"
+
+
         ]
 
     },
