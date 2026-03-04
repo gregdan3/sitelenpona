@@ -5,7 +5,7 @@ permalink: common-method.html
 ---
 
 <style>
-span .table{
+span:has(.tiers){
     margin: auto
 }
 .tiers :is(td, th){
@@ -53,7 +53,7 @@ SP Content
 {% endsp %}
 {% endsplit %}
 
-<span class="table">
+<span>
 <table class="tiers">
     <caption>Summarizing Tiers of Teachability<caption>
     <thead>
@@ -94,7 +94,7 @@ SP Content
 {% endsp %}
 {% endsplit %}
 
-<span class="table">
+<span>
 <table class="tiers">
 <caption>Word Notability Algorithm Participants</caption>
    <thead>
