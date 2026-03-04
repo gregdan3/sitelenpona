@@ -159,7 +159,8 @@ h2{
 
 .asterisk {
     text-align: right;
-    margin-right: 2em;
+    margin: 2rem 0 2rem auto;
+    max-width: 30rem;
 }
 
 
@@ -354,15 +355,14 @@ Forthcoming
 {% include "partials/punctuation.liquid",  number: "2", tier: tier_2 %}
 {% include "partials/punctuation.liquid",  number: "3", tier: tier_3 %}
 
-
-</div>
-
-
-
-
-</div>
-
 <p class="asterisk">* These glyphs already represented by public-use Unicode codepoints and do not require new assignments.<p>
+</div>
+
+
+
+
+</div>
+
 </div>
 
 
