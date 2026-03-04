@@ -165,7 +165,8 @@
             }
 
             footer a,
-            nav a {
+            nav a,
+            nav summary {
                 color: var(--jelo-8);
                 transition: all .25s cubic-bezier(0, 1, 0, 1)
             }
@@ -179,7 +180,8 @@
 
             footer a:hover,
             footer p#links a:hover,
-            nav a:hover {
+            nav a:hover
+            nav summary:hover, nav details[open] summary{
                 color: black;
                 text-decoration-color: black
             }
