@@ -6,11 +6,14 @@ permalink: common-method.html
 
 <style>
 span:has(.tiers){
-    margin: auto
+    margin: auto;
+    width: fit-content;
+    display: block;
 }
 .tiers :is(td, th){
     padding: .5rem 2rem .5rem .5rem;
-    max-width: 30rem
+    max-width: 30rem;
+    vertical-align: top;
 }
 thead {
     border-bottom: solid 2px black;
