@@ -49,7 +49,8 @@ permalink: common.html
     grid-template-areas:
         "glyph name"
         ". name";
-    margin-bottom: .5rem
+    margin-bottom: 1rem;
+    grid-template-rows: auto 1fr
 }
 
 .punctuation>li>* {
@@ -181,7 +182,7 @@ h2{
     }
 
     .punctuation li {
-        grid-template-columns: 8rem 8rem;
+        grid-template-columns: min-content;
         grid-template-areas:
             "glyph glyph"
             "name name";
@@ -220,9 +221,6 @@ h2{
         grid-template-areas:
             "glyph name"
             ". name";
-        column-gap: 2em;
-
-
     }
 
     .punctuation li:has(.pair) {
