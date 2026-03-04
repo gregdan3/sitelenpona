@@ -130,10 +130,10 @@ h1{
 }
 
 h2{
-    margin: auto;
     text-align: left;
     width: unset;
     padding: 0 0 0.5em 1em;
+    margin: 0 auto 1rem;
 
     }
 .foreword h2{

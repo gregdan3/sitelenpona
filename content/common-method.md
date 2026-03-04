@@ -31,6 +31,9 @@ caption {
     text-align: left;
     padding-left: .5rem;
 }
+h3{
+    margin-bottom: 0
+}
 
     </style>
 
