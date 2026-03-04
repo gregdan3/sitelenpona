@@ -180,14 +180,28 @@
 
             footer a:hover,
             footer p#links a:hover,
-            nav a:hover
+            nav a:hover,
             nav summary:hover, nav details[open] summary{
                 color: black;
                 text-decoration-color: black
             }
 
+            nav details[open] summary{
+                padding-bottom: .5rem;
+                border-bottom: dotted 2px var(--jelo-5);
+                margin-bottom: 1rem;
+            }
+
             footer>p::before {
                 display: none
+            }
+
+            #sidebar nav details a{
+                margin-left: 1rem
+            }
+
+            #menu details nav details a{
+                margin-right: 1rem
             }
 
             @media (width < 800px) {
