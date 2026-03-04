@@ -5,7 +5,7 @@ permalink: common-method.html
 ---
 
 <style>
-.table{
+span .table{
     margin: auto
 }
 .tiers :is(td, th){
@@ -13,12 +13,13 @@ permalink: common-method.html
     max-width: 30rem
 }
 thead {
-  border-bottom: solid 2px black;
+    border-bottom: solid 2px black;
 }
 .tiers{
-    max-width: 50rem
+    max-width: 50rem;
     margin: 2em;
-    text-align: left
+    text-align: left;
+    border-collapse: collapse
 }
 tbody tr:nth-child(2n-1) {
     background-color: var(--jelo-1);
@@ -80,7 +81,7 @@ SP Content
         </tbody>
     </thead>
 </table>
-</div>
+</span>
 
 
 {% split %}
@@ -130,7 +131,7 @@ Tier 3: [30%; 60%]
     </tr>
 </tbody>
 </table>
-</div>
+</span>
 
 {% splith 3 %}
     {% en %}Results{% enden %}
