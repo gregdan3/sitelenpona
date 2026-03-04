@@ -119,6 +119,7 @@ permalink: common.html
     display: grid;
     grid-template-columns: 5rem 1fr;
     background: var(--jelo-1);
+    padding: .5rem
 }
 
 .p:empty {
@@ -177,8 +178,8 @@ h2{
     }
 
     .punctuation .word-glyph {
-        max-width: 5rem;
-        min-width: 5rem;
+        max-width: 4rem;
+        min-width: 4rem;
     }
 
     .punctuation li {
