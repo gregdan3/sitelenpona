@@ -18,7 +18,7 @@ Use this template when adding new bilingual content two-column content:
 ```
 {% splith %}
     {% en %}English H2{% enden %}
-    {% sp %}SP H2{% endsp %}
+    {% sp %}o ante toki e nimi suli ni{% endsp %}
 {% endsplith %}
 
 {% split %}
@@ -27,7 +27,7 @@ English Content
 {% enden %}
 
 {% sp %}
-SP Content
+o pana e sitelen pona lon ni
 {% endsp %}
 {% endsplit %}
 
