@@ -1,0 +1,122 @@
+---
+title: The Road to Unicode
+toktitle: 
+permalink: history.html
+---
+
+
+{% splith %}
+    {% en %}UCSUR: <br>A Proof-of-Concept
+{% enden %}
+    {% sp %}o ante toki e nimi suli ni{% endsp %}
+{% endsplith %}
+
+{% split %}
+{% en %}
+Toki Pona experienced a boost in popularity as a result of the Covid-19 pandemic response. Resources for Sitelen Pona grew exponentially. Prior to lockdowns, there were only a few Sitelen Pona fonts in use. In the period since, a large amount of Sitelen Pona fonts have been produced. As early as 2021, the need for community-wide coordination of encoding was apparent. 
+
+Toki Pona speakers submitted a [proposal](https://hackmd.io/f60orzD_T6S3wwciXdJosw?edit) d to the Under-ConScript Unicode Registry. A [few](https://hackmd.io/@hTJocmVJRdy2APPREmseXQ/Bygid_8Jg9) [iterations](https://www.kreativekorp.com/ucsur/charts/sitelen.html) later, following the UCSUR's adoption by major Toki Pona fonts, tech-savvy members of the Toki Pona community were able to modify their messaging clients and fully chat in online spaces using Sitelen Pona. However, for members who were not so technically-oriented, the non-universality of UCSUR resulted in unequal access. Several community members independently arrived at a common conclusion: We should organize to get Sitelen Pona into Unicode. 
+{% enden %}
+
+{% sp %}
+o pana e sitelen pona lon ni
+{% endsp %}
+{% endsplit %}
+
+
+{% splith %}
+    {% en %}Winter-Spring 2024: Early Work <br>
+{% enden %}
+    {% sp %}o ante toki e nimi suli ni{% endsp %}
+{% endsplith %}
+
+{% split %}
+{% en %}
+
+Starting in 2024, efforts to draft a proposal began in earnest. 
+
+In January, several interested community members formed an ad-hoc working group. After four months of investigation, internal discussions, and survey outreach, the working group submitted a preliminary proposal to the Unicode Consortium in April.
+
+While this first edition of the proposal was able to demonstrate wide usage of Sitelen Pona as a writing system, the proposal failed to outline a stable set of glyphs to be encoded. It also didn't decide on representative versions of the glyphs. 
+
+Why did the first proposal fail to present a stable set of glyphs? 
+
+Toki Pona’s core vocabulary, assessed by the Linku project’s annual write-in surveys, appeared to be relatively stable. But there was still some doubt. Linku does not directly observe usage and could only reflect what people reported their own usage to be. It couldn't be used to determine the stability of words in practice. 
+
+Similarly, the Sitelen Pona write-in surveys that were sent out during this period presented conclusions that weren't intuitive. Finally, the working group determined that it could not confidently progress without being able to statistically analyze Toki Pona and Sitelen Pona usage directly. They set about making the tools required to pursue this new direction.
+
+{% enden %}
+
+{% sp %}
+o pana e sitelen pona lon ni
+{% endsp %}
+{% endsplit %}
+
+
+{% splith %}
+    {% en %}Summer-Fall 2024: Gathering Data <br> 
+{% enden %}
+    {% sp %}o ante toki e nimi suli ni{% endsp %}
+{% endsplith %}
+
+{% split %}
+{% en %}
+In the latter half of 2024, the working group’s attention was fixed on creating new tools and gathering usage data. 
+
+mun Kekan San published ilo Muni, a new corpus-based word-frequency analyzer, in August. Owing to extensive web-scraping efforts, ilo Muni provides robust data on word usage in Toki Pona from 2016 onwards. 
+
+Usage data for Sitelen Pona glyphs and variations was pursued in three ways. At the font level, jan Ke Tami created a new annotated database of all Sitelen Pona fonts. At the text level, working group members gathered and annotated a new corpus of Sitelen Pona handwriting examples. Finally, waso Keli created and published SP Font Maker. This tool allows anyone to create and upload their own handwriting samples to create a Sitelen Pona font, and also serves as a database where individual preferences for Sitelen Pona glyphs can be batched and analyzed.
+
+In addition to data collection, seeing that many glyphs for neologisms were not explicitly released into the public domain, the working group contacted the authors of these glyphs to confirm CC-Zero licensing.
+
+After much groundwork had been laid, the group was ready to draft Common Sitelen Pona. Mrs. Lang developed a formal synthesizing algorithm for Common Sitelen Pona that assigned features to three tiers of teachworthiness and integrated existing and new data sources, uniting the work that had been done up to this point and defining a clear deliverable.
+{% enden %}
+
+{% sp %}
+o pana e sitelen pona lon ni
+{% endsp %}
+{% endsplit %}
+
+
+{% splith %}
+    {% en %}2025: Creation of the Association
+{% enden %}
+    {% sp %}o ante toki e nimi suli ni{% endsp %}
+{% endsplith %}
+
+{% split %}
+{% en %}
+In 2025, armed with more usage data and a united vision, things progressed until the end was in sight. 
+
+Anticipating the eventual publication of Common Sitelen Pona, the working group agreed it would register itself as a not-for-profit corporation in Canada. The association was legally incorporated on July 18, 2025. 
+
+Using Mrs. Lang’s formal synthesizing algorithm, tiers of teachability for the main words were finalized by April, and representative glyphs were finalized by [INSERT MONTH HERE]. 
+
+A couple of matters were resolved by alternative processes. Regarding the issue of whether certain alternate glyphs were semantically distinct enough to require separate codepoints, the organization settled this by ordinary vote. Regarding the teachability of specific punctuation marks and features, the organization settled this through more community-wide outreach. 
+
+In addition to working on Common Sitelen Pona, the font-makers of the association worked to coordinate the ASCII input standard.
+{% enden %}
+
+{% sp %}
+o pana e sitelen pona lon ni
+{% endsp %}
+{% endsplit %}
+
+
+{% splith %}
+    {% en %}2026: The Year of Sitelen Pona
+{% enden %}
+    {% sp %}o ante toki e nimi suli ni{% endsp %}
+{% endsplith %}
+
+{% split %}
+{% en %}
+In 2026, we are finally presenting the labour of the last two years to the public. We published a public draft of Common Sitelen Pona in January. In February, we completed analysis on the Linku glyph survey. In March, we released our new website. Stay tuned for more updates!
+{% enden %}
+
+{% sp %}
+o pana e sitelen pona lon ni
+{% endsp %}
+{% endsplit %}
+
+
