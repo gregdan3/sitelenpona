@@ -283,7 +283,7 @@ Common Sitelen Pona was prepared algorithmically, with separate processes used t
 -  Which **non-word glyphs** commonly rely on uniquely Sitelen Pona codepoints?
 - Which **versions of glyphs are representative** of those commonly used in Sitelen Pona?
 
-[Learn more about how Common Sitelen Pona was prepared.](/common-method.html)
+[Learn more about how Common Sitelen Pona was prepared.](/method.html)
 </div>
 <div>
 
