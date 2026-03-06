@@ -7,7 +7,7 @@ permalink: /history.html
 <style>
     .year-marker{
         font-size: 1rem;
-        background-color: var(--jelo-1);
+        background-color: var(--kule-1);
         position: absolute;
         right: 2rem;
         left: 2rem;

@@ -47,7 +47,7 @@ permalink: members.html
         transition: all .25s cubic-bezier(.08,.82,.17,1);
     }
     .condensed details:not([open]):hover summary{
-        color: var(--jelo-8);
+        color: var(--kule-8);
         font-weight: bold
     }
     .condensed details[open]{
@@ -57,12 +57,12 @@ permalink: members.html
         left: 0;
         z-index: 1;
         background-color: white;
-        outline: 2px solid var(--jelo-5);
+        outline: 2px solid var(--kule-5);
         border-radius: 0.5rem;
         list-style-type: none;
         padding: 1rem 0.5em;
         opacity: 0.95;
-        box-shadow: .5rem .5rem var(--jelo-1)
+        box-shadow: .5rem .5rem var(--kule-1)
     }
     .condensed details[open] summary{
         font-weight: bold

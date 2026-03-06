@@ -25,7 +25,7 @@ thead {
     border-collapse: collapse
 }
 tbody tr:nth-child(2n-1) {
-    background-color: var(--jelo-1);
+    background-color: var(--kule-1);
 }
 caption {
     text-align: left;

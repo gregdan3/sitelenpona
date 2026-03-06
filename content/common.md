@@ -118,7 +118,7 @@ permalink: common.html
 .example {
     display: grid;
     grid-template-columns: 5rem 1fr;
-    background: var(--jelo-1);
+    background: var(--kule-1);
     padding: .5rem
 }
 
