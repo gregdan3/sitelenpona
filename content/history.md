@@ -123,7 +123,7 @@ o pana e sitelen pona lon ni
 {% en %}
 In 2025, armed with more usage data and a united vision, things progressed until the end was in sight. 
 
-Anticipating the eventual publication of Common Sitelen Pona, the working group agreed it would register itself as [a not-for-profit corporation in Canada](https://laws.justice.gc.ca/eng/acts/c-7.75/). The association was legally incorporated on July 18, 2025. 
+Anticipating the eventual publication of Common Sitelen Pona, the working group agreed it would register itself as [a not-for-profit corporation in Canada](https://laws.justice.gc.ca/eng/acts/c-7.75/). The association was legally incorporated on July 28, 2025. 
 
 Using Mrs. Lang’s formal synthesizing algorithm, tiers of teachability for the main words were finalized by April, and representative glyphs were finalized by [INSERT MONTH HERE]. 
 
