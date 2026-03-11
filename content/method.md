@@ -126,8 +126,9 @@ sona ante la<br>zz jan tu wan ni^ li pali e nasin ante
 {% endsp %}
 {% sl %}
 poki tu tu pi wawa sona la jan tu wan li poki e nimi kepeken sona ante.
-{% endsl %}
 sona ante la jan tu wan ni li pali e nasin ante.
+{% endsl %}
+
 
 {% endsplit %}
 
