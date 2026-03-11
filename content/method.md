@@ -37,6 +37,12 @@ h3{
     margin: 2rem auto 0;
 }
 
+.tech{
+    background-color: var(--kule-1);
+    margin-block: 0.2rem;
+    font-family: monospace;
+}
+
     </style>
 
 
@@ -68,7 +74,7 @@ h3{
         <tbody>
             <tr>
                 <td>Tier 1</td>
-                <td>Almost universal, reflecting conservative interpretations of the language as originating from <abbr title="Toki Pona: The Language of Good">TP:LOG</abbr> (2014)</td>
+                <td>Almost universal, reflecting conservative interpretations of the writing system as described in <em>Toki Pona: The Language of Good<em> (2014)</td>
             </tr>
             <tr>
                 <td>Tier 2</td>
@@ -389,31 +395,38 @@ SP Content
 
 
 {% splith %}
-    {% en %}Which non-word glyphs commonly rely on uniquely Sitelen Pona codepoints? {% enden %}
+    {% en %}Which non-word glyphs should be combined with existing Unicode equivelants? {% enden %}
     {% sp %}sitelen seme pi nimi ala li kepeken nanpa pi sitelen pona{% endsp %}
     {% sl %}sitelen seme pi nimi ala li kepeken nanpa pi sitelen pona? {% endsl %}
 {% endsplith %}
 
 {% split %}
 {% en %}
-For most of the punctuation glyphs in Common Sitelen Pona the answer to this is self-evident. Novel glyphs that have no existing equivalent are recommended to have new codepoints, glyphs that are already used in other scripts are recommended to rely on existing codepoints. 
+For most of the punctuation glyphs in Common Sitelen Pona, the answer to this is self-evident. 
 
-Recommended to be assigned new codepoints:
-- SITELEN PONA START OF CARTOUCHE, SITELEN PONA END OF CARTOUCHE
-- SITELEN PONA STACKING JOINER
-- SITELEN PONA NESTING JOINER
-- SITELEN PONA START OF LONG GLYPH
-- SITELEN PONA END OF LONG GLYPH
-- SITELEN PONA COMBINING TALLY MARK
+Novel glyphs that have no existing Unicode equivalent are recommended to have new codepoints, glyphs that have an equivelant are recommended to rely on existing codepoints. 
 
 Reccommended to be mapped to existing codepoints:
-- ZERO WIDTH SPACE
-- ZERO WIDTH JOINER
-- IDEOGRAPHIC SPACE
-- LEFT CORNER BRACKET
-- RIGHT CORNER BRACKET
+- <span class="tech">ZERO WIDTH SPACE</span>
+- <span class="tech">ZERO WIDTH JOINER</span>
+- <span class="tech">IDEOGRAPHIC SPACE</span>
+- <span class="tech">LEFT CORNER BRACKET</span>
+- <span class="tech">RIGHT CORNER BRACKET</span>
 
-However two punctuation glyphs, MIDDLE DOT and COLON, form an exceptional case. The primary use for these two glyphs are to appear in cartouches, requiring additional rendering rulesets. For this reason, The Association recommends that SITELEN PONA MIDDLE DOT and SITELEN PONA COLON be assigned new codepoints and not be combined with their existing Unicode equivelants. 
+
+
+Recommended to be assigned new codepoints:
+- <span class="tech">SITELEN PONA START OF CARTOUCHE</span>, <span class="tech">SITELEN PONA END OF CARTOUCHE</span>
+- <span class="tech">SITELEN PONA STACKING JOINER</span>
+- <span class="tech">SITELEN PONA NESTING JOINER</span>
+- <span class="tech">SITELEN PONA START OF LONG GLYPH</span>
+- <span class="tech">SITELEN PONA END OF LONG GLYPH</span>
+- <span class="tech">SITELEN PONA COMBINING TALLY MARK</span>
+- <span class="tech">SITELEN PONA MIDDLE DOT</span>
+- <span class="tech">SITELEN PONA COLON</span>
+
+
+<span class="tech">SITELEN PONA MIDDLE DOT</span> and <span class="tech">SITELEN PONA COLON</span> form an exceptional case. These two glyphs are [routinely rendered in cartouches](https://sona.pona.la/wiki/nasin_sitelen_kalama). As this behaviour deviates significantly from that expected of Unicode's <span class="tech">MIDDLE DOT</span> and <span class="tech">COLON</span>, and  we recommend that <span class="tech">SITELEN PONA MIDDLE DOT</span> and <span class="tech">SITELEN PONA COLON</span> be assigned new codepoints and not be combined with Unicode equivelants.. 
 {% enden %}
 
 {% sp %}
