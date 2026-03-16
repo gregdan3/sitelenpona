@@ -70,7 +70,6 @@ h2 {
     border-bottom: dotted var(--kule-5) 3px;
     font-variation-settings: "wdth" 75;
     font-size: 2em;
-
     width: fit-content; 
 }
 
@@ -80,6 +79,11 @@ h2 {
     grid-auto-flow: dense;
     /*gap: 1rem 0;*/
     padding: 0 1rem;
+}
+
+h2.split{
+    line-height: 2.5rem;
+    padding-bottom: .5rem
 }
 
 span.split {
