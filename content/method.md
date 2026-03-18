@@ -208,7 +208,7 @@ As reported by kala Asi, the Linku project held one vote within this algorithm.
 
 [ilo Muni](https://ilo.muni.la/?scale=r) is a word usage analyzer that draws on a [large corpus of community data](https://ilo.muni.la/about/#where-is-the-data-from), filtered to [only contain text authored in Toki Pona](https://github.com/gregdan3/sona-toki). mun Kekan San is the author of ilo Muni and set the following thresholds in assigning the words to Tiers of Teachability. 
 
-- Tier 1: 5yrs / 10% authorship, reflecting the threshold that coptures all of the words in the *Official Toki Pona* series' 2014 publication, as these words are known to be stable 
+- Tier 1: 5yrs / 10% authorship, reflecting the threshold that captures all of the words in the *Official Toki Pona* series' 2014 publication, as these words are known to be stable 
 - Tier 2: - 4yrs / 7.5% authorship, reflecting the threshold that almost perfectly captures all words in Linku's 'common' tier
 - Tier 3: - 3yrs / 5% authorship, reflecting the point at which statistical noise becomes an overwhelming issue
 
@@ -303,7 +303,7 @@ SP Content
 
 {% split %}
 {% en %}
-Algorithm: Use six sources of input to identify the most representative glyphs of for Toki Pona words that are known to have variants. Four sources of input reflect exercised discretion of invited fontmakers. Two sources of input reflect sampled handwriting data from community. 
+Algorithm: Use six sources of input to identify the most representative glyphs for Toki Pona words that are known to have variants. Four sources of input reflect exercised discretion of invited fontmakers. Two sources of input reflect sampled handwriting data from the community. 
 
 The input sources are listed below:
 {% enden %}
@@ -443,7 +443,7 @@ Or download the [raw results for representative glyphs](/content/common/represen
 {% endsplit %}
 
 {% splith %}
-    {% en %}Which variant glyphs for the same word are commonly used co-currently?{% enden %}
+    {% en %}Which variant glyphs for the same word are commonly used concurrently?{% enden %}
     {% sp %}{% endsp %}
     {% sl %}{% endsl %}
 {% endsplith %}
@@ -478,7 +478,7 @@ o pana e sitelen pona lon ni
 
 {% split %}
 {% en %}
-We invited survey respondants to describe whether they used certain variant glyph pairs, and if they used both, we asked whether both glyphs had the same meaning.
+We invited survey respondents to describe whether they used certain variant glyph pairs, and if they used both, we asked whether both glyphs had the same meaning.
 
 [insert rationale for determining cut-off thresholds here]
 
@@ -515,11 +515,11 @@ Download the [raw results for semantic variance](/content/common/semanticity.txt
 
 {% split %}
 {% en %}
-In the first phase, members of the association ran a survey asking respondants about whether they (1) use, (2) use in some situations, (3) avoid in most situations" or (4) never use, thirty-eight Sitelen Pona punctuation features. Visual examples of the punctuation features were provided.  
+In the first phase, members of the association ran a survey asking respondents about whether they (1) use, (2) use in some situations, (3) avoid in most situations, or (4) never use, thirty-eight Sitelen Pona punctuation features. Visual examples of the punctuation features were provided.  
 
 We received 505 responses to the survey. 
 
-Each feature was given a a base percentage score. Those that had indicated they use the feature "in some situations" and "avoid in most situations" were respectively counted as 2/3rds and 1/3rd of a full user.
+Each feature was given a base percentage score. Those that had indicated they use the feature "in some situations" and "avoid in most situations" were respectively counted as 2/3rds and 1/3rd of a full user.
 
 We then linearly scaled these base percentages to bring pu-style Sitelen Pona cartouches, the most universal punctuation feature of Sitelen Pona, to 100%. Punctuation features were assigned a temporary tier based on this scaled score. 
 
@@ -534,7 +534,7 @@ In second phase, we provided the results of the community survey to our members 
 
 As multidisciplinary collective of Sitelen Pona experts, what tier of teachability did they think suitable for these surveyed Sitelen Pona features? Members were invited to consider the results of the community survey in their responses, but were under no strict obligation to do so. 
 
-Twenty-one of our members responded to the survey. The median response of members was used to determine the final tier assignments, with one exception. The Latin-style period was initially assigned to the third tier and later excluded through an informal poll. 
+Twenty-one of our members responded to the survey. The median response of members was used to determine the final tier assignments, with one exception. The Latin-style period was initially assigned to the third tier and later excluded through an unanimous informal poll, due to redundancy with the middot. 
 {% enden %}
 {% sp %}
 SP Content
@@ -560,7 +560,7 @@ SP Content
 
 
 {% splith %}
-    {% en %}Which non-word glyphs should be combined with existing Unicode equivelants? {% enden %}
+    {% en %}Which non-word glyphs should be combined with existing Unicode equivalents? {% enden %}
     {% sp %}sitelen seme pi nimi ala li kepeken nanpa pi sitelen pona{% endsp %}
     {% sl %}sitelen seme pi nimi ala li kepeken nanpa pi sitelen pona? {% endsl %}
 {% endsplith %}
@@ -569,7 +569,7 @@ SP Content
 {% en %}
 For most of the punctuation glyphs in Common Sitelen Pona, the answer to this is self-evident. 
 
-Novel glyphs that have no existing Unicode equivalent are recommended to have new codepoint. Glyphs that have an equivelant are recommended to rely on existing codepoints. 
+Novel glyphs that have no existing Unicode equivalent are recommended to have new codepoint. Glyphs that have an equivalent are recommended to rely on existing codepoints. 
 
 Reccommended to be mapped to existing codepoints:
 - <span class="tech">ZERO WIDTH SPACE</span>
@@ -591,7 +591,7 @@ Recommended to be assigned new codepoints:
 - <span class="tech">SITELEN PONA COLON</span>
 
 
-<span class="tech">SITELEN PONA MIDDLE DOT</span> and <span class="tech">SITELEN PONA COLON</span> form an exceptional case. These two glyphs are [routinely rendered in cartouches](https://sona.pona.la/wiki/nasin_sitelen_kalama). As this behaviour deviates significantly from that expected of Unicode's <span class="tech">MIDDLE DOT</span> and <span class="tech">COLON</span>, and  we recommend that <span class="tech">SITELEN PONA MIDDLE DOT</span> and <span class="tech">SITELEN PONA COLON</span> be assigned new codepoints and not be combined with Unicode equivelants.. 
+<span class="tech">SITELEN PONA MIDDLE DOT</span> and <span class="tech">SITELEN PONA COLON</span> form an exceptional case. These two glyphs are [routinely rendered in cartouches](https://sona.pona.la/wiki/nasin_sitelen_kalama). As this behaviour deviates significantly from that expected of Unicode's <span class="tech">MIDDLE DOT</span> and <span class="tech">COLON</span>, we recommend that <span class="tech">SITELEN PONA MIDDLE DOT</span> and <span class="tech">SITELEN PONA COLON</span> be assigned new codepoints and not be combined with Unicode equivalents.. 
 {% enden %}
 
 {% sp %}
