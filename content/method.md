@@ -43,7 +43,30 @@ h3, h4{
     font-family: monospace;
 }
 
+
+
     </style>
+
+{% split %}
+{% en %}
+The methodology that Common Sitelen Pona uses was mostly developed by Mrs. Lang, the language's founder, and approved by the majority of the working group. 
+
+The development of Common Sitelen Pona required us to answer several questions. Using Mrs. Lang’s methodology, we finalized tiers of teachability for the main words  and representative glyphs.
+
+Some matters were resolved by alternative processes. Regarding the issue of whether certain alternate glyphs were semantically distinct enough to require separate codepoints, the organization studied the issue by community-wide outreach and then utilized that data to make a determination by vote. Regarding the teachability of specific punctuation marks and other features of Sitelen Pona, the organization settled this through further community-wide outreach, again followed by a vote.
+
+{% for item in collections.sorted_method %}
+<a href="{{item.url}}">{{ item.data.title }}</a>
+{% endfor %}
+
+
+{% enden %}
+
+{% sp %}
+{% endsp %}
+{% endsplit %}
+
+<br>
 
 
 {% splith %}
@@ -53,17 +76,10 @@ h3, h4{
 {% endsplith %}
 
 
-{% split %}
-{% en %}
-{% enden %}
-
-{% sp %}
-{% endsp %}
-{% endsplit %}
-
 
 {% split %}
 {% en %}
+//unsure of what preamble to put here. any ideas?
 {% enden %}
 
 {% sp %}
